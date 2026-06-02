@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preferências</title>
+</head>
+<body>
+<br>
+   <h1>Preferências</h1>
+<form action="cadastro.php" method="enviar">
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome">
+<br>
+<h3> Qual turno você prefere estudar? </h3>
+<p>Turno:</p>
+<input type="radio" name="turno" id="manha" value="manha">
+<label for="manha">Manhã</label>
+<input type="radio" name="turno" id="tarde" value="tarde">
+<label for="tarde">Tarde</label>
+<input type="radio" name="turno" id="noite" value="noite">
+<label for="noite">Noite</label>
+<br>
+<br>
+<h3> Quais areas da tecnologia você tem interesse? </h3>
+<input type="checkbox" name="area" id="programacao" value="programacao">
+<label for="programacao">Programação</label>
+<input type="checkbox" name="area" id="design" value="design">
+<input type="checkbox" name="area" id="redes" value="redes">
+<label for="Banco de Dados ">Banco de Dados</label>
+<input type="checkbox" name="area" id="redes" value="redes">
+<label for="redes">Redes</label>
+<br>
+<br>
+<label for="Qual sua cor favorita? ">Qual sua cor favorita?</label>
+<input type="color" color="color" id="color" value="color">
+<br>
+<br>
+<label for="Qual seu nivel de satisfação? ">Qual seu nivel de satisfação?</label>
+<input type="range" range="range" id="range" value="range">
+<br>
+<br>
+<label for="Qual seu horário preferido? ">Qual seu horário preferido?</label>
+<input type="time" time="time" id="time" value="time">
+<br>
+<br>
+<label for="Envie um arquivo ">Envie um arquivo</label>
+<input type="file" file="file" id="file" value="file">
+<br>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</body>
+
+</html>
